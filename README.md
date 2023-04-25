@@ -19,6 +19,9 @@ Introduction to Flutter with a flags quiz game
 ### Step 5: Show answer with button background and icon
 <img src="steps/step5.jpg" alt="Step 5" title="Step 5" width="30%">
 
+### Step 6: Wait and generate new question
+<img src="steps/step6.gif" alt="Step 6" title="Step 6" width="30%">
+
 ## Links
 
 - [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)

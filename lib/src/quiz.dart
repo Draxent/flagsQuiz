@@ -28,10 +28,11 @@ class _QuizState extends State<Quiz> {
     _generateQuestion();
   }
 
-  void selectOption(int index) {
+  void selectOption(int index) async {
     setState(() => selectedOption = index);
-    // wait 3 seconds
-    // regenerate question
+    await Future.delayed(const Duration(seconds: 3));
+    _generateQuestion();
+    setState(() => selectedOption = noOptionSelected);
   }
 
   void _generateQuestion() {
