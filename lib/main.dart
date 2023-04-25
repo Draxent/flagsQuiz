@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'src/quiz.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flags Quiz'),
         ),
-        body: const Placeholder(),
+        body: const Quiz(),
       ),
     );
   }

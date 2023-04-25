@@ -2,6 +2,11 @@
 
 Introduction to Flutter with a flags quiz game
 
+## Steps
+
+### Step 1
+<img src="steps/step1.jpg" alt="Step 1" title="Step 1" width="30%">
+
 ## Links
 
 - [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
