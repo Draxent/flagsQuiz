@@ -2,7 +2,13 @@
 
 Introduction to Flutter with a flags quiz game
 
+## Start
+
+Start the project from the **step-0** by downloading [this file](step0.zip) and enabling the web device for the project
+
 ## Steps
+
+You can follow the project step by step using the commits
 
 ### Step 1: Display list of flags
 <img src="steps/step1.jpg" alt="Step 1" title="Step 1" width="30%">
