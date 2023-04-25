@@ -6,9 +6,19 @@ abstract class Images {
   static const String _results = '$_img/results/';
   static const String _png = '.png';
 
-  static Image get imageCorrect => image('${_results}correct$_png');
+  static const resultWidth = 30.0;
 
-  static Image get imageWrong => image('${_results}wrong$_png');
+  static Image get imageCorrect => image(
+        '${_results}correct$_png',
+        width: resultWidth,
+        height: resultWidth,
+      );
+
+  static Image get imageWrong => image(
+        '${_results}wrong$_png',
+        width: resultWidth,
+        height: resultWidth,
+      );
 
   static Image flag(String countryCode) => image('$_flags$countryCode$_png');
 
